@@ -12,6 +12,11 @@ updates:
     target-branch: dependency-updates
     labels:
       - 'dependencies'
+    # Auto-merge security updates
+    auto-merge:
+      enabled: true
+    # Auto-rebase to keep PRs up to date
+    rebase-strategy: 'auto'
 
   - package-ecosystem: 'github-actions'
     # Workflow files stored in the
@@ -22,3 +27,7 @@ updates:
     target-branch: dependency-updates
     labels:
       - 'dependencies'
+    # Auto-merge for GitHub Actions updates
+    auto-merge:
+      enabled: true
+    rebase-strategy: 'auto'
