@@ -1,8 +1,6 @@
 # Security Policy
 
 
----
-
 ```markdown
 # 🔒 ADRIANALIVEAPPSTUDIO - MASTER SECURITY AUTOMATION DOCUMENT
 
