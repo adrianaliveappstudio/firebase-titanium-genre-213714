@@ -1,92 +1,67 @@
-<p align="center">
-  <a href="https://rnfirebase.io">
-    <img width="160px" src="https://i.imgur.com/JIyBtKW.png"><br/>
-  </a>
-  <h2 align="center">React Native Firebase</h2>
-</p>
+# Titanium Genre 213714
 
-<p align="center">
-  <a href="https://www.npmjs.com/package/@react-native-firebase/app"><img src="https://img.shields.io/npm/dm/@react-native-firebase/app.svg?style=flat-square" alt="NPM downloads"></a>
-  <a href="https://www.npmjs.com/package/@react-native-firebase/app"><img src="https://img.shields.io/npm/v/@react-native-firebase/app.svg?style=flat-square" alt="NPM version"></a>
-  <a href="/LICENSE"><img src="https://img.shields.io/npm/l/@react-native-firebase/app.svg?style=flat-square" alt="License"></a>
-  <a href="https://lerna.js.org/"><img src="https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg?style=flat-square" alt="Maintained with Lerna"></a>
-</p>
+![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg)
+![Status: Protected](https://img.shields.io/badge/Status-Protected-blue.svg)
 
-<p align="center">
-  <a href="https://invertase.link/discord"><img src="https://img.shields.io/discord/295953187817521152.svg?style=flat-square&colorA=7289da&label=Chat%20on%20Discord" alt="Chat on Discord"></a>
-  <a href="https://twitter.com/rnfirebase"><img src="https://img.shields.io/twitter/follow/rnfirebase.svg?style=flat-square&colorA=1da1f2&colorB=&label=Follow%20on%20Twitter" alt="Follow on Twitter"></a>
-  <a href="https://www.facebook.com/groups/rnfirebase"><img src="https://img.shields.io/badge/Follow%20on%20Facebook-4172B8?logo=facebook&style=flat-square&logoColor=fff" alt="Follow on Facebook"></a>
-</p>
+Official repository for **Titanium Genre 213714** under **adrianaliveappstudio**.
 
 ---
 
-**React Native Firebase** is a collection of official React Native modules connecting you to Firebase services; each module is a light-weight JavaScript layer connecting you to the native Firebase SDKs for both iOS and Android.
+## 🔒 Security & Contact
 
-React Native Firebase is built with four key principles in mind;
-
-- 🧪 **Well tested**
-  - every module is extensively tested to >95% coverage
-- 👁 **Well typed**
-  - first class support for Typescript included
-- 📄 **Well documented**
-  - full reference & installation documentation alongside detailed guides and FAQs
-- 🔥 **Mirrors official Firebase Web SDK**
-  - functions as a drop-in replacement for the Firebase Web SDK in React Native
-  - maximizes cross-platform code re-usability e.g. re-using code on web platforms
-
-## Firebase Modules
-
-This is the root of the mono-repo for React Native Firebase, if you're looking for a specific package please select the package link from below.
-
-The main package that you interface with is `App` (`@react-native-firebase/app`)
-
-| Name                                                     | Downloads                                                                                                                                                                                       |                                                                                        
-| -------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | 
-| [Analytics](/packages/analytics)                         |           [![badge](https://img.shields.io/npm/dm/@react-native-firebase/analytics.svg?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/@react-native-firebase/analytics)           |
-| [App](/packages/app)                                     |                 [![badge](https://img.shields.io/npm/dm/@react-native-firebase/app.svg?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/@react-native-firebase/app)                 |
-| [App Check](/packages/app-check)                         |               [![badge](https://img.shields.io/npm/dm/@react-native-firebase/app-check.svg?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/@react-native-firebase/app-check)       |
-| [App Distribution](/packages/app-distribution)           |  [![badge](https://img.shields.io/npm/dm/@react-native-firebase/app-distribution.svg?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/@react-native-firebase/app-distribution)      |
-| [Authentication](/packages/auth)                         |                [![badge](https://img.shields.io/npm/dm/@react-native-firebase/auth.svg?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/@react-native-firebase/auth)                |
-| [Cloud Firestore](/packages/firestore)                   |           [![badge](https://img.shields.io/npm/dm/@react-native-firebase/firestore.svg?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/@react-native-firebase/firestore)           |
-| [Cloud Functions](/packages/functions)                   |           [![badge](https://img.shields.io/npm/dm/@react-native-firebase/functions.svg?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/@react-native-firebase/functions)           |
-| [Cloud Messaging](/packages/messaging)                   |           [![badge](https://img.shields.io/npm/dm/@react-native-firebase/messaging.svg?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/@react-native-firebase/messaging)           |
-| [Cloud Storage](/packages/storage)                       |             [![badge](https://img.shields.io/npm/dm/@react-native-firebase/storage.svg?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/@react-native-firebase/storage)             |
-| [Crashlytics](/packages/crashlytics)                     |         [![badge](https://img.shields.io/npm/dm/@react-native-firebase/crashlytics.svg?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/@react-native-firebase/crashlytics)         |
-| [Dynamic Links](/packages/dynamic-links)                 |       [![badge](https://img.shields.io/npm/dm/@react-native-firebase/dynamic-links.svg?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/@react-native-firebase/dynamic-links)       |
-| [In-app Messaging](/packages/in-app-messaging)           |    [![badge](https://img.shields.io/npm/dm/@react-native-firebase/in-app-messaging.svg?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/@react-native-firebase/in-app-messaging)    |
-| [Installations](/packages/installations)                 |    [![badge](https://img.shields.io/npm/dm/@react-native-firebase/installations.svg?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/@react-native-firebase/installations)          |
-| [ML](/packages/ml)                                       |           [![badge](https://img.shields.io/npm/dm/@react-native-firebase/ml.svg?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/@react-native-firebase/ml)                         |
-| [Performance Monitoring](/packages/perf)                 |                [![badge](https://img.shields.io/npm/dm/@react-native-firebase/perf.svg?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/@react-native-firebase/perf)                |
-| [Realtime Database](/packages/database)                  |            [![badge](https://img.shields.io/npm/dm/@react-native-firebase/database.svg?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/@react-native-firebase/database)            |
-| [Remote Config](/packages/remote-config)                 |       [![badge](https://img.shields.io/npm/dm/@react-native-firebase/remote-config.svg?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/@react-native-firebase/remote-config)       |
-
-## Documentation
-
-- [Quick Start](https://rnfirebase.io/)
-- [Reference API](https://rnfirebase.io/reference)
-
-Looking for the Version 5 documentation? [View legacy documentation](https://v5.rnfirebase.io).
-
-## Contributing
-
-- [Overview](https://github.com/invertase/react-native-firebase/blob/main/CONTRIBUTING.md)
-- [Issues](https://github.com/invertase/react-native-firebase/issues)
-- [PRs](https://github.com/invertase/react-native-firebase/pulls)
-- [Documentation](https://rnfirebase.io)
-- [Community](https://github.com/invertase/react-native-firebase/blob/main/CONTRIBUTING.md)
-- [Code of Conduct](https://github.com/invertase/meta/blob/main/CODE_OF_CONDUCT.md)
-
-## License
-
-- See [LICENSE](/LICENSE)
+* **Author & Lead Developer:** Adriana Venter
+* **GitHub:** [@adrianaliveappstudio](https://github.com/adrianaliveappstudio)
+* **Security & Inquiries:** security@adrianalive.app
+* **Official Web Domain:** [adrianalive.app](https://adrianalive.app)
 
 ---
 
-<p align="center">
-  <a href="https://invertase.io/?utm_source=readme&utm_medium=footer&utm_campaign=react-native-firebase">
-    <img width="75px" src="https://static.invertase.io/assets/invertase/invertase-rounded-avatar.png">
-  </a>
-  <p align="center">
-    Built and maintained by <a href="https://invertase.io/?utm_source=readme&utm_medium=footer&utm_campaign=react-native-firebase">Invertase</a>.
-  </p>
-</p>
+## 📜 Intellectual Property & Licensing
+
+This software and all associated source code, binaries, brand assets, and algorithmic designs are protected under **THE ADRIANASAMUSIC LICENSE**.
+
+> **Important Notice:**
+> This repository is **Strictly Proprietary**. Unauthorized cloning, distribution, modification, rebranding, or deployment is explicitly prohibited.
+
+### Authorization Notice
+Any execution, deployment, or usage of this software requires formal authorization, verification, and written permission directly from the Code Owner (**Adriana Venter**).
+
+For full legal terms, restrictions, and trademark disclosures, please consult the [LICENSE](./LICENSE) file.# THE ADRIANASAMUSIC LICENSE
+
+**Copyright (c) 2026, Adriana Venter & adrianaliveappstudio. All rights reserved.**
+
+* **Primary Contact & Author:** Adriana Venter ([@adrianaliveappstudio](https://github.com/adrianaliveappstudio))
+* **Primary Email:** security@adrianalive.app
+* **Project Scope:** Titanium Genre 213714 | adrianalive.app
+
+---
+
+### I. PROPRIETARY BRAND AND TRADEMARK PROTECTION
+The following names, brands, handles, entities, patents, and technologies are the exclusive, legally protected trademarks, patents, and intellectual property of the Author and Copyright Owner:
+
+* Titanium / Titanium Genre / Titanium Genre 213714
+* Blockstream Firebase Titanium Genre / CLRV Titanium Blockchain / CLRV Titanium Blockstream
+* Adrianadj / DJ Adriana / DJ Adriana Ing / adrianalive / adrianasamusic
+* Creativelive / Dragonfly Capital / Ingwenya Investments / Adriana Media Inc
+* Digistream / Digicert / Bitstream / Beatstream / Digitally Yours
+* Masterpass / Dragonpass / Psytube / Iradio / Dragonfly Radio
+* Microsoft Media Center AdrianaMusic / Auth0.com SHA-256 Bitcoin Binary Algorithm
+
+---
+
+### II. STRICT RESTRICTIONS ON USE, REBRANDING, AND REDEPLOYMENT
+1. **ABSOLUTE PROHIBITION:** Any cloning, duplicating, copying, redistribution, rebranding, modification, or redeployment of this software, its binary assets, or its underlying source code is strictly prohibited.
+2. **NO IMPERSONATION:** Any unauthorized replication of the brand identity, name, or source code for commercial or non-commercial purposes is strictly forbidden.
+3. **LEGAL ACTION:** Perpetrators of unauthorized redistribution, cloning, or trademark infringement will be prosecuted to the fullest extent of civil and criminal law.
+
+---
+
+### III. MANDATORY CODE OWNER AUTHORIZATION AND VERIFICATION
+1. **EXCLUSIVE AUTHORIZATION REQUIRED:** This software is strictly proprietary. No individual, entity, or third-party user may deploy, run, host, or distribute this software or its source code without explicit written permission.
+2. **VERIFICATION PROCESS:** The Code Owner (Adriana Venter / adrianaliveappstudio) must formally authorize, certify, verify, and authenticate any and all users prior to deployment.
+3. **REVOCATION:** Any deployment found operating without a verifiable, authenticated license directly issued by the Code Owner will be ordered to terminate immediately and face legal enforcement.
+
+---
+
+### IV. DISCLAIMER OF LIABILITY
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
